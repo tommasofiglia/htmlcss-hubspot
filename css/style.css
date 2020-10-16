@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utility classes */
+.container{
+  width: 950px;
+  margin: auto;
+}
+
+.float_left{
+  float: left;
+}
+
+.margin_v30{
+  margin: 30px 0;
+}
+
+.black{
+  color: black;
+}
+
+.bg_orange{
+  display: inline-block;
+  background-color: #fe785a;
+  color: white;
+  font-size: 14px;
+}
+
+.button{
+  padding: 20px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bg_orange:hover{
+  background-color: rgba(254, 120, 90, 0.7);
+}
+
+p{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+/* fine delle utility classes */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Inizio di navbar + header */
+
+/* Inizio navbar */
+.navbar{
+  height: 80px;
+  position: relative;
+}
+
+.nav_left , .nav_right{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav_left{
+  width: 30%;
+}
+
+.nav_right{
+  width: 70%;
+  text-align: right;
+  right: 0;
+}
+
+.nav_right a{
+  color: #33475b;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.nav_right i{
+  margin-left: 10px;
+}
+/* Fine navbar */
+
+/* Inizio Hero Container */
+
+.hero_image{
+  height: 600px;
+  background-image: url("../img/jumbotron.png");
+  background-size: 110%;
+  background-position: 100% 15%;
+}
+
+.text_hero{
+  width: 50%;
+  padding-top: 50px;
+  color: #33475b;
+}
+
+.text_hero h1{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.text_hero .black{
+  font-size: 12px;
+}
