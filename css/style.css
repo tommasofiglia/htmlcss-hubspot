@@ -21,7 +21,8 @@ body{
 }
 
 .margin_v30{
-  margin: 30px 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .margin_t30{
@@ -63,15 +64,22 @@ p{
   line-height: 1.5em;
 }
 
+h3{
+  font-size: 23px;
+  font-weight: 700;
+}
+
 .b_rad{
   border-radius: 7px;
   background-color: white;
   box-shadow: 0 0 5px 0 lightgrey;
 }
 
-.check_list{
-  font-weight: 500;
-}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
 /* fine delle utility classes */
 
 /* Inizio di navbar + header */
@@ -165,11 +173,6 @@ main{
 
 /* Seconda riga */
 
-.second_row::after{
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .sr_left{
   width: 30%;
@@ -203,16 +206,61 @@ main{
   border: 1px solid #33475b;
 }
 
-.sr_right i{
-  margin: 0 10px;
+.sr_right i , .third_row i{
+  margin: 0 15px;
   color: #fe785a;
 }
 
-.sr_right h3{
-  font-size: 25px;
-  font-weight: 600;
+.sr_right li{
+  font-weight: 500;
+  font-size: 15px;
+  list-style: none;
+  display: inline-block;
 }
 
 .sr_right p{
   padding-right: 100px;
+}
+
+.third_row .float_left{
+  width: 30%;
+  text-align: center;
+}
+
+.tr_center{
+  margin: 0 5%;
+}
+
+.third_row img{
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.third_row p{
+  padding: 0 37px;
+  margin: 30px 0;
+}
+
+.third_row hr {
+  width: 75%;
+  margin: auto;
+  border: 1px solid #33475b;
+}
+
+.third_row h4{
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.third_row li{
+  text-align: left;
+  list-style: none;
+  padding-left: 30px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.third_row .button{
+  margin: 50px 0 20px 0;
 }
