@@ -84,6 +84,10 @@ h3{
   box-shadow: 0 0 5px 0 lightgrey;
 }
 
+.padding_grid{
+  padding: 10px 20px;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -282,4 +286,32 @@ main{
 .fourth_row h2{
   font-size: 30px;
   padding-top: 50px;
+}
+
+.fifth_row .col_3{
+  width: 25%;
+}
+
+.col_3:first-child , .col_3:nth-child(2) , .col_3:nth-child(3){
+    border-right: 1px solid white;
+}
+
+.fifth_row h2{
+  font-size: 40px;
+}
+
+.plus{
+  font-size: 25px;
+  vertical-align: middle;
+  font-weight: 500;
+}
+
+.col_3 > span{
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.col_3 img{
+  padding-top: 20px;
 }
