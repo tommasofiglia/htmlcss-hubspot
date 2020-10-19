@@ -25,6 +25,11 @@ body{
   margin-bottom: 30px;
 }
 
+.margin_v40{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .margin_v50{
   margin-top: 50px;
   margin-bottom: 50px;
@@ -32,6 +37,10 @@ body{
 
 .margin_t30{
   margin-top: 30px;
+}
+
+.padding_t60{
+  padding-top: 60px;
 }
 
 .ta_center{
@@ -288,6 +297,7 @@ main{
   padding-top: 50px;
 }
 
+/* Quinta riga */
 .fifth_row .col_3{
   width: 25%;
 }
@@ -314,4 +324,23 @@ main{
 }
 .col_3 img{
   padding-top: 20px;
+}
+
+/* Sesta riga */
+.sixr_left{
+  width: 40%;
+  padding: 0 70px;
+}
+
+.sixr_right{
+  width: 60%;
+}
+
+.sixr_left h2{
+  font-size: 45px;
+}
+
+.sixr_right img{
+  width: 100px;
+  margin-right: 30px;
 }
