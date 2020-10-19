@@ -25,6 +25,11 @@ body{
   margin-bottom: 30px;
 }
 
+.margin_v50{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .margin_t30{
   margin-top: 30px;
 }
@@ -61,7 +66,7 @@ body{
 p{
   font-size: 15px;
   font-weight: 500;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 h3{
