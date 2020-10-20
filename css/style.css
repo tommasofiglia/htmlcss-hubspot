@@ -241,6 +241,7 @@ header{
 .hero_image{
   height: 600px;
   background-image: url("../img/jumbotron.png");
+  background-color: #FEF6EF;
   background-position: 100% 10%;
   background-repeat: no-repeat;
 }
